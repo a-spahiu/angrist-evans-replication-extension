@@ -33,20 +33,13 @@ Due to file size constraints, the raw data is not hosted directly in this reposi
 To replicate the analysis from scratch, run the R scripts in the following order:
 
 ### 1. Data Processing
-Execute the cleaning script first to format variables, apply sample restrictions (women aged 21–35 with two or more children), and generate the instrumented variables:
-
-`source("Cleaning.R")`
+Open and run `Cleaning.R` first. This script formats the variables, applies the required sample restrictions (women aged 21–35 with two or more children), and generates the instrumented variables.
 
 ### 2. Baseline Replication
-Once the data is prepared, you can run any of the standalone table scripts to replicate the paper's original findings (e.g., demographic characteristics, fertility sex-mix fractions, Wald, and 2SLS results):
-
-`source("Table_2.R")`
-`source("Table_3.R")`
+Once the dataset is cleaned, you can open and run any of the standalone table scripts (such as `Table_2.R`, `Table_3.R`, etc.) to replicate the paper's original findings, including baseline descriptive statistics, Wald, and 2SLS estimates.
 
 ### 3. Structural Extension
-To evaluate the functional form properties and test the robustness of the LPM estimations against a non-linear approach, execute:
-
-`source("Extension.R")`
+Open and run `Extension.R` to evaluate the functional form properties and test the robustness of the LPM estimations against the non-linear IV-Probit approach.
 
 ---
 
