@@ -13,7 +13,7 @@ For the comprehensive review of the methodology, descriptive statistics, and the
 * `Cleaning.R` – Script to filter, clean, and prepare the raw Census PUMS data.
 * `Table_2.R`, `Table_3.R`, etc. – Scripts dedicated to replicating specific baseline tables, descriptive statistics, and main OLS/2SLS regression models from the paper.
 * `Extension.R` – Script executing the IV-Probit robustness check, endogeneity tests, and average marginal effects (AME) calculations.
-* `Econ_Personal.pdf` – Full paper review, replication analysis, and extension report.
+* `Report.pdf` – Full paper review, replication analysis, and extension report.
 * `data/` – Directory where the processed datasets must be stored (see Data Setup).
 
 ---
